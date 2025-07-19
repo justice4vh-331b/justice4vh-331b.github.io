@@ -1,0 +1,70 @@
+<!-- Copyright (c) 2025 SweetMelanie -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justice for VH-331b</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="min-h-screen py-12 text-gray-200">
+    <div class="galaxy"></div>
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h1 class="text-5xl font-bold text-white mb-4 neon-glow">Justice for <span class="whitespace-nowrap">VH-331b</span></h1>
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+                List of people who agree that <span class="italic">Dreamerr Prime</span> is one of the worst planet names in the universe and want to do justice to <span class="whitespace-nowrap">VH-331b</span>—either by removing the extra "R" or bringing back its original name.
+            </p>
+            <br>
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+                If we reach 100 supporters, and since the person who named the planet is no longer active, we believe the name change should go through.
+            </p>
+            <div class="flex flex-wrap justify-center items-center gap-4 mt-4 text-sm sm:text-base">
+                <span class="counter-box px-6 py-2 rounded-lg text-white font-semibold" id="totalCounter">
+                    Total: <span id="userCount" class="text-pink-500 neon-glow">0</span>
+                </span>
+                <span class="counter-box px-6 py-2 rounded-lg text-white font-semibold" id="renameCounter">
+                    Rename: <span id="renameCount" class="text-pink-500 neon-glow">0</span>
+                </span>
+                <span class="counter-box px-6 py-2 rounded-lg text-white font-semibold" id="revertCounter">
+                    Revert: <span id="revertCount" class="text-pink-500 neon-glow">0</span>
+                </span>
+                <a href="https://github.com/justice4vh-331b/justice4vh-331b.github.io" target="_blank" class="text-white bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 px-6 py-2 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+        <div class="max-w-4xl mx-auto">
+            <div class="table-container overflow-x-auto">
+                <table class="w-full rounded-lg" id="userTable">
+                    <thead>
+                        <tr class="text-left text-purple-300">
+                            <th class="px-6 py-4 font-semibold text-lg name-column">Name</th>
+                            <th class="px-6 py-4 font-semibold text-lg status-column">Rename</th>
+                            <th class="px-6 py-4 font-semibold text-lg status-column">Revert</th>
+                        </tr>
+                    </thead>
+                    <tbody id="userList" class="text-gray-200">
+                        <!-- ... -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="text-sm text-gray-300 text-center mt-8">
+                © 2025 <span class="text-pink-500 drop-shadow-[0_0_5px_rgba(236,72,153,0.5)]">SweetMelanie</span>.
+                Software licensed under the
+                <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" class="text-purple-500 hover:text-pink-500 transition drop-shadow-[0_0_5px_rgba(236,72,153,0.5)]">
+                    Apache&nbsp;License&nbsp;2.0
+                </a>.
+                Content licensed under
+                <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" class="text-purple-500 hover:text-pink-500 transition drop-shadow-[0_0_5px_rgba(236,72,153,0.5)]">
+                    <span class="whitespace-nowrap">CC-BY-SA 4.0</span>
+                </a>.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
