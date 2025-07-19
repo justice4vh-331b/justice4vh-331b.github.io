@@ -1,3 +1,4 @@
 [
-	{ "name": "SweetMelanie", "rename": false, "revert": true, "pr": 1 }
+	{ "name": "SweetMelanie", "rename": false, "revert": true, "pr": 1 },
+	{ "name": "Tonatsi", "rename": true, "revert": true, "pr": 2 }
 ]
